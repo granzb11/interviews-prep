@@ -1,14 +1,13 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-
+"""Singly Linked List Implementation"""
 class Node:
+    """Node Class"""
     def __init__(self, val):
         self.val = val
         self.next = None
 
-"""Singly linked list implementation"""
+
 class SLinkedList:
-    """Single Linked List"""
+    """Single Linked List Class"""
     def __init__(self):
         self.head = None
 
