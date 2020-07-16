@@ -2,6 +2,7 @@
 Content while preparing for Amazon and Facebook interviews
 
 ## Project Structure
-.
-+-- _data-structures
-|   +-- binary-search-tree.py
+    |-- data-structures
+        |-- binary-search-tree.py
+    |-- .gitignore
+    |-- READM.md
