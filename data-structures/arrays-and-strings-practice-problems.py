@@ -39,7 +39,24 @@ def is_unique_bit_manipulation(str):
     return True
 
 
-""""""
+"""
+1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
+Good questions to ask:
+1) Are these permutations case sensitive? (i.e. is God a permutation of dog)
+2) Is white space significant?
+
+For our example we'll say it's case sensitive and space is significant
+"""
+
+def check_permutation(str1: string, str2: string) -> bool:
+    """where we are checking if str1 is a permutation of str2"""
+    if len(str1) > len(str2):
+        return False
+
+
+def permutations(str: string):
+    
+
 
 def main():
     """1.1"""
@@ -49,6 +66,8 @@ def main():
     # print(f"Should retrun False: {is_unique_with_list('abcdd')}")
     # print(f"Should return True: {is_unique_bit_manipulation('abcde')}")
     # print(f"Should retrun False: {is_unique_bit_manipulation('abcdd')}")
+
+    """1.2"""
 
 
 if __name__ == '__main__':
